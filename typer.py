@@ -1,5 +1,6 @@
 ############### typer ##############
 import os
+import cmd_styling as style
 
 help_menu_strings = """
 -cls  .... clears screen
