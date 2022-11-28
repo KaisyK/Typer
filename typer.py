@@ -45,3 +45,6 @@ def execute_sys_cmd(user_input):
         return True
     
     return False
+
+def colour_print(text, colour):
+    pass
