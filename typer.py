@@ -39,8 +39,8 @@ def execute_sys_cmd(user_input):
         elif user_input == 'quit':
             exit()
         elif user_input == 'help':
-            print(help_menu_strings)
-            print(f"{MAIN_HELP_MENU}\n")
+            print(style.ansi_fgcolour['yellow'] + help_menu_strings)
+            print(f"{MAIN_HELP_MENU}{style.ansi_fgcolour['white']}\n")
         
         return True
     
